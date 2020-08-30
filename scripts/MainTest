@@ -1,0 +1,11 @@
+package com.demo.kotlin.tests
+
+import com.demo.kotlin.sayHi
+import kotlin.test.assertEquals
+import org.junit.Test
+
+class MainTest {
+    @Test fun testHi() : Unit {
+        assertEquals("hi", sayHi())
+    }
+}
