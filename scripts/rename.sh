@@ -78,6 +78,7 @@ echo "remove cache"
 rm -rf scripts/Main_bak.kt-s || true
 rm -rf scripts/MainTest_bak.kt-s || true
 rm -rf scripts/pom_bak.xml-g || true
+rm -rf target || true
 
 if [ $currentFolder != $projectName ]; then
   echo "please open the project under: "
